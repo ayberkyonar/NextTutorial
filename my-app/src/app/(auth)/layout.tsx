@@ -23,17 +23,11 @@ export default function AuthLayout({
 }>) {
   return (
     <html lang="en">
-      <header>
-        <h3>Header</h3>
-      </header>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
-      <footer>
-        <h3>Footer</h3>
-      </footer>
     </html>
   );
 }
